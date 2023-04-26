@@ -1,10 +1,12 @@
 <script>
 import JumbotronVue from './JumbotronVue.vue';
+import FeaturedCourses from './FeaturedCourses.vue';
 
 export default {
     name: 'PageMain',
     components: {
-        JumbotronVue
+        JumbotronVue,
+        FeaturedCourses
     }
 }
 </script>
@@ -12,6 +14,9 @@ export default {
 <template>
     <main>
         <JumbotronVue />
+        <FeaturedCourses />
+
+
     </main>
 </template>
 
