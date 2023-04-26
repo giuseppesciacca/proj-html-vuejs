@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <ul>
+    <ul class="p-0 me-5">
         <li v-for="link in array">
             <a :href="link.src">{{ link.text }}</a>
         </li>

@@ -29,17 +29,42 @@ export default {
 
                 <div class="col-6">
                     <FooterLinks />
-
                 </div>
             </div>
         </div>
 
-        <p class="text-center">C 2020 Maxcoach. All Rights Reserved</p>
+        <p class="text-center credits">C 2020 Maxcoach. All Rights Reserved</p>
     </footer>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
+@use '../assets/scss/partials/variables.scss' as *;
+
 footer {
     height: 405px;
+    background-color: $hint_of_red;
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    h5 {
+        color: $cod_gray;
+        font-weight: 600;
+    }
+
+    a,
+    p {
+        color: $edward;
+        font-weight: 600;
+    }
+
+    .credits {
+        color: $shady_lady;
+    }
 }
 </style>

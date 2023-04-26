@@ -1,5 +1,6 @@
 <script>
 import LinkFooter from './LinkFooter.vue';
+//data links
 import explorePartOne from '../assets/data/exploreLink.json';
 import explorePartTwo from '../assets/data/exploreLinkSecondPart.json';
 import informationLink from '../assets/data/informationLinks.json';
@@ -22,7 +23,7 @@ export default {
 <template>
     <div class="row ">
         <div id="explore_menu" class="col-6">
-            <h5>Explore</h5>
+            <h5 class="my-3">Explore</h5>
             <div class="d-flex">
 
                 <LinkFooter :array="explorePartOne" :src="explorePartOne.src" :text="explorePartOne.text" />
@@ -33,7 +34,7 @@ export default {
         </div>
 
         <div id="information_menu" class="col-6">
-            <h5>Information</h5>
+            <h5 class="my-3">Information</h5>
 
             <LinkFooter :array="informationLink" :src="explorePartOne.src" :text="explorePartOne.text" />
         </div>
