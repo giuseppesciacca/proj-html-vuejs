@@ -18,7 +18,7 @@ export default {
 
     <main>
         <section id="jumbotron">
-            <div class="container">
+            <div class="my_container">
                 <div class="row justify-content-center align-content-center">
 
                     <div class="col-5 d-flex flex-column justify-content-center">
@@ -67,6 +67,11 @@ export default {
 </template>
 
 <style lang="scss">
+.my_container {
+    max-width: 1200px;
+    margin: auto;
+}
+
 #jumbotron {
     height: 840px;
 
@@ -102,14 +107,14 @@ export default {
 
         .img_dot3 {
             position: absolute;
-            bottom: 150px;
+            bottom: 10px;
             right: 70px;
         }
 
         .img_circle {
             position: absolute;
-            top: 185px;
-            left: 97%;
+            top: 250px;
+            left: 100%;
         }
     }
 }

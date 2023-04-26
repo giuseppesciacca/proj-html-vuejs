@@ -16,7 +16,7 @@ export default {
 
 <template>
     <header>
-        <div class="container">
+        <div class="my_container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-auto">
                     <img class="img-fluid" src="../assets/img/dark-logo.png" width="160" alt="">
