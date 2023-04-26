@@ -23,7 +23,7 @@ export default {
                 </div>
 
                 <div class="col-auto">
-                    <NavBar :menu="menu" :name="name" :links="links" />
+                    <NavBar :menu="menu" :name="menu.name" :links="menu.links" />
                 </div>
 
 
