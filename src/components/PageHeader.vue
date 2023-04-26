@@ -17,7 +17,7 @@ export default {
 <template>
     <header>
         <div class="container">
-            <div class="row justify-content-between">
+            <div class="row justify-content-between align-items-center">
                 <div class="col-auto">
                     <img class="img-fluid" src="../assets/img/dark-logo.png" width="160" alt="">
                 </div>
@@ -35,6 +35,8 @@ export default {
 
 <style lang="scss" scoped>
 header {
-    height: 80px;
+    .row {
+        height: 80px;
+    }
 }
 </style>
