@@ -1,7 +1,13 @@
 <script>
+import menu from '../assets/data/menu.json'
 import NavBar from './NavBar.vue';
 export default {
     name: 'PageHeader',
+    data() {
+        return {
+            menu
+        }
+    },
     components: {
         NavBar
     }
@@ -17,7 +23,7 @@ export default {
                 </div>
 
                 <div class="col-auto">
-                    <NavBar />
+                    <NavBar :menu="menu" :name="name" :links="links" />
                 </div>
 
 

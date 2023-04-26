@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Home",
+        "links": [
+            "link1",
+            "link2"
+        ]
+    },
+    {
+        "name": "Pages",
+        "links": [
+            "link1",
+            "link2"
+        ]
+    },
+    {
+        "name": "Courses",
+        "links": [
+            "link1",
+            "link2"
+        ]
+    },
+    {
+        "name": "Features",
+        "links": [
+            "link1",
+            "link2"
+        ]
+    },
+    {
+        "name": "Blog",
+        "links": [
+            "link1",
+            "link2",
+            "link3"
+        ]
+    },
+    {
+        "name": "Shop",
+        "links": [
+            "link1",
+            "link2"
+        ]
+    }
+]

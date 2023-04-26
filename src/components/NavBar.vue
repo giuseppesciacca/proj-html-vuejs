@@ -1,56 +1,11 @@
 <script>
-
 export default {
     name: 'NavBar',
-    data() {
-        return {
-            menu: [
-                {
-                    "name": 'Home',
-                    'links': [
-                        'link1',
-                        'link2'
-                    ]
-                },
-                {
-                    "name": 'Pages',
-                    'links': [
-                        'link1',
-                        'link2'
-                    ]
-                },
-                {
-                    "name": 'Courses',
-                    'links': [
-                        'link1',
-                        'link2'
-                    ]
-                },
-                {
-                    "name": 'Features',
-                    'links': [
-                        'link1',
-                        'link2'
-                    ]
-                },
-                {
-                    "name": 'Blog',
-                    'links': [
-                        'link1',
-                        'link2',
-                        'link3',
-                    ]
-                },
-                {
-                    "name": 'Shop',
-                    'links': [
-                        'link1',
-                        'link2'
-                    ]
-                }
-            ]
-        }
-    },
+    props: {
+        menu: Array,
+        name: String,
+        links: Array,
+    }
 }
 </script>
 
