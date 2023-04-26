@@ -19,11 +19,19 @@ export default {
                     <p>+1 (305) 547-9909 (9am - 5pm EST, Monday - Friday)</p>
                     <a href="#">support@maxcoach.com</a>
 
-                    <div>
-                        <a href="#">FB</a>
-                        <a href="#">TW</a>
-                        <a href="#">IS</a>
-                        <a href="#">LN</a>
+                    <div class="my-3">
+                        <a href="#" class="me-4">
+                            <font-awesome-icon :icon="['fab', 'square-facebook']" size="xl" />
+                        </a>
+                        <a href="#" class="me-4">
+                            <font-awesome-icon :icon="['fab', 'twitter']" size="xl" />
+                        </a>
+                        <a href="#" class="me-4">
+                            <font-awesome-icon :icon="['fab', 'instagram']" size="xl" />
+                        </a>
+                        <a href="#" class="me-4">
+                            <font-awesome-icon :icon="['fab', 'linkedin']" size="xl" />
+                        </a>
                     </div>
                 </div>
 
