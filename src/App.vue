@@ -1,12 +1,14 @@
 <script>
 import PageHeader from './components/PageHeader.vue';
 import PageMain from './components/PageMain.vue';
+import PageFooter from './components/PageFooter.vue';
 
 
 export default {
     components: {
         PageHeader,
-        PageMain
+        PageMain,
+        PageFooter
     }
 }
 </script>
@@ -16,17 +18,12 @@ export default {
 
     <PageMain />
 
-
-    <footer></footer>
+    <PageFooter />
 </template>
 
 <style lang="scss">
 .my_container {
     max-width: 1200px;
     margin: auto;
-}
-
-footer {
-    height: 405px;
 }
 </style>
