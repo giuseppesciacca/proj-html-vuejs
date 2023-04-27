@@ -10,11 +10,11 @@ export default {
             <div class="row justify-content-center align-content-center">
 
                 <div class="col-5 d-flex flex-column justify-content-center">
-                    <h1>Distant learning for further expansion</h1>
+                    <h1 class="fw-bold">Distant learning for further expansion</h1>
                     <p>Learning is a life-long journey that in fact we never find the terminate stop. Stop searching,
                         enjoy the process.
                     </p>
-                    <button class="btn btn-success">
+                    <button class="btn">
                         <font-awesome-icon :icon="['fas', 'download']" /> Download free guide </button>
                     <p>Have questions? <a href="#">Get Free Sample <font-awesome-icon
                                 :icon="['fas', 'arrow-right-long']" /></a></p>
@@ -55,12 +55,32 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variables.scss' as *;
+
 #jumbotron {
     height: 840px;
+
+    h1 {
+        color: $gun_powder;
+    }
+
+    p {
+        color: $shady_lady;
+
+        a {
+            color: $jungle_green;
+            font-weight: bold;
+            text-decoration: none;
+            border-bottom: 1px solid $shady_lady;
+        }
+    }
 
     .btn {
         width: 260px;
         height: 50px;
+        font-weight: bold;
+        background-color: $jungle_green;
+        color: $white;
     }
 
     .image {
