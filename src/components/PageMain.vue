@@ -6,6 +6,7 @@ import EnjoyCompanionship from './EnjoyCompanionship.vue';
 import OurLearners from './OurLearners.vue';
 import OurNumbers from './OurNumbers.vue';
 import MostViewed from './MostViewed.vue';
+import SubscribeNewsletter from './SubscribeNewsletter.vue';
 
 export default {
     name: 'PageMain',
@@ -16,7 +17,8 @@ export default {
         EnjoyCompanionship,
         OurLearners,
         OurNumbers,
-        MostViewed
+        MostViewed,
+        SubscribeNewsletter
     }
 }
 </script>
@@ -30,6 +32,7 @@ export default {
         <OurLearners />
         <OurNumbers />
         <MostViewed />
+        <SubscribeNewsletter />
     </main>
 </template>
 

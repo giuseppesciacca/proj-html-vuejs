@@ -1,3 +1,7 @@
 // Import all of Bootstrap's CSS
 @use "bootstrap/scss/bootstrap";
 @use './partials/variables.scss' as *;
+
+body {
+    font-family: 'Questrial', sans-serif;
+}
