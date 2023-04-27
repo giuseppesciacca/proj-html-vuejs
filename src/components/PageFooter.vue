@@ -41,7 +41,8 @@ export default {
             </div>
         </div>
 
-        <p class="text-center credits">C 2020 Maxcoach. All Rights Reserved</p>
+        <p class="text-center credits"><font-awesome-icon :icon="['far', 'copyright']" /> 2020 Maxcoach. All Rights Reserved
+        </p>
     </footer>
 </template>
 
