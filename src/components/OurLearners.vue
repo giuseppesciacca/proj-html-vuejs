@@ -83,11 +83,11 @@ export default {
     <section id="start_today" class="text-center py-5">
         <div class="my_container position-relative">
             <h5>Start today for getting <span>Online Certification</span></h5>
-            <h2>You can be your own guiding star with our help!</h2>
+            <h2 class="pb-3">You can be your own guiding star with our help!</h2>
             <button class="btn">Get started now</button>
 
-            <img src="../assets/img/maxcoach-shape-01.png" alt="">
-            <img src="../assets/img/maxcoach-shape-02.png" alt="">
+            <img class="img_line" src="../assets/img/maxcoach-shape-01.png" alt="">
+            <img class="img_circle" src="../assets/img/maxcoach-shape-02.png" alt="">
         </div>
     </section>
 </template>
@@ -144,6 +144,42 @@ export default {
     .active_dot {
         color: $gun_powder;
         scale: 1.5;
+    }
+}
+
+#start_today {
+
+    background-color: $hint_of_red;
+
+    h5,
+    h2 {
+        color: $gun_powder;
+        font-weight: bold;
+
+        span {
+            color: $jungle_green;
+            font-weight: normal;
+        }
+    }
+
+    button {
+        background-color: $jungle_green;
+        color: $white;
+        font-weight: bold;
+        width: 260px;
+        height: 50px;
+    }
+
+    .img_line {
+        position: absolute;
+        top: 40%;
+        left: 8%;
+    }
+
+    .img_circle {
+        position: absolute;
+        top: 40%;
+        right: 8%;
     }
 }
 </style>

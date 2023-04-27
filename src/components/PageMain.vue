@@ -3,7 +3,7 @@ import JumbotronVue from './JumbotronVue.vue';
 import FeaturedCourses from './FeaturedCourses.vue';
 import AccessTutoring from './AccessTutoring.vue';
 import EnjoyCompanionship from './EnjoyCompanionship.vue';
-import OurLerners from './OurLerners.vue';
+import OurLearners from './OurLearners.vue';
 
 export default {
     name: 'PageMain',
@@ -12,7 +12,7 @@ export default {
         FeaturedCourses,
         AccessTutoring,
         EnjoyCompanionship,
-        OurLerners,
+        OurLearners,
     }
 }
 </script>
@@ -23,7 +23,7 @@ export default {
         <FeaturedCourses />
         <AccessTutoring />
         <EnjoyCompanionship />
-        <OurLerners />
+        <OurLearners />
     </main>
 </template>
 
