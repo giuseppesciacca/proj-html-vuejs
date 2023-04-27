@@ -4,6 +4,7 @@ import FeaturedCourses from './FeaturedCourses.vue';
 import AccessTutoring from './AccessTutoring.vue';
 import EnjoyCompanionship from './EnjoyCompanionship.vue';
 import OurLearners from './OurLearners.vue';
+import OurNumbers from './OurNumbers.vue';
 
 export default {
     name: 'PageMain',
@@ -13,6 +14,7 @@ export default {
         AccessTutoring,
         EnjoyCompanionship,
         OurLearners,
+        OurNumbers
     }
 }
 </script>
@@ -24,6 +26,7 @@ export default {
         <AccessTutoring />
         <EnjoyCompanionship />
         <OurLearners />
+        <OurNumbers />
     </main>
 </template>
 
