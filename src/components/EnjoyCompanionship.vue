@@ -11,6 +11,7 @@ export default {
                 <div class="col-7 image position-relative">
                     <img class="img-fluid img_video" src="../assets/img/home-2-popup-video-poster.jpg" alt="">
 
+                    <img class="img-fluid icon_youtube" src="../assets/img/icon-youtube-play.png" alt="">
                     <img class="img-fluid img_dot_circle" src="../assets/img/maxcoach-shape-05.png" alt="">
                     <img class="img-fluid img_dot_square" src="../assets/img/maxcoach-shape-07.png" alt="">
 
@@ -65,21 +66,29 @@ p {
 }
 
 .img_video {
-    position: absolute;
+    position: relative;
     top: 65px;
     right: 0;
+    z-index: 1;
+}
+
+.icon_youtube {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 1;
 }
 
 .img_dot_circle {
     position: absolute;
     top: 90px;
-    left: -50px;
+    left: -65px;
 }
 
 .img_dot_square {
     position: absolute;
     bottom: -20px;
-    right: -15px;
+    right: 15px;
 }
 </style>
