@@ -23,7 +23,7 @@ export default {
 
 <style lang="scss">
 .my_container {
-    max-width: 1200px;
+    width: 1200px;
     margin: auto;
 }
 </style>
