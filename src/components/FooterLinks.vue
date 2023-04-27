@@ -1,5 +1,5 @@
 <script>
-import LinkFooter from './LinkFooter.vue';
+import ListFooter from './ListFooter.vue';
 //data links
 import explorePartOne from '../assets/data/exploreLink.json';
 import explorePartTwo from '../assets/data/exploreLinkSecondPart.json';
@@ -15,7 +15,7 @@ export default {
         }
     },
     components: {
-        LinkFooter
+        ListFooter
     }
 }
 </script>
@@ -26,9 +26,9 @@ export default {
             <h5 class="my-3">Explore</h5>
             <div class="d-flex">
 
-                <LinkFooter :array="explorePartOne" :src="explorePartOne.src" :text="explorePartOne.text" />
+                <ListFooter :array="explorePartOne" :src="explorePartOne.src" :text="explorePartOne.text" />
 
-                <LinkFooter :array="explorePartTwo" :src="explorePartOne.src" :text="explorePartOne.text" />
+                <ListFooter :array="explorePartTwo" :src="explorePartOne.src" :text="explorePartOne.text" />
 
             </div>
         </div>
@@ -36,7 +36,7 @@ export default {
         <div id="information_menu" class="col-6">
             <h5 class="my-3">Information</h5>
 
-            <LinkFooter :array="informationLink" :src="explorePartOne.src" :text="explorePartOne.text" />
+            <ListFooter :array="informationLink" :src="explorePartOne.src" :text="explorePartOne.text" />
         </div>
 
     </div>

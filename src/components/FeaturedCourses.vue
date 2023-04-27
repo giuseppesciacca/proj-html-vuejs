@@ -60,9 +60,9 @@ export default {
             <h2 class="text-center fw-bold">Featured Online Courses</h2>
 
             <div class="row py-5 g-3">
-
                 <div v-for="item in courses " class="col-6 d-flex align-items-center p-3">
                     <div class="col-4 ps-3">
+                        <!-- :src="'../assets/img/' + item.src" -->
                         <img class="img-fluid" src="../assets/img/stock-full-hd-05-480x298.jpg" :alt="item.title">
                     </div>
                     <div class="col-8 pe-5 ps-3">

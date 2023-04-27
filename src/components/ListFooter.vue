@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'LinkFooter',
+    name: 'ListFooter',
     props: {
         array: Array,
         src: String,
