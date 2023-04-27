@@ -29,13 +29,26 @@ export default {
 
                 <button class="btn"><font-awesome-icon :icon="['far', 'circle-user']" size="sm" /></button>
 
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                <form class="input-group d-flex" role="search">
+                    <input id="field_search" class="form-control border-0" type="search" placeholder="Search..."
+                        aria-label="Search">
+                    <span class="input-group-text border-0" id="Search"><font-awesome-icon
+                            :icon="['fas', 'magnifying-glass']" /></span>
                 </form>
             </div>
         </div>
     </nav>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@use '../assets/scss/partials/variables.scss' as *;
+
+#field_search,
+#Search {
+    background-color: #f5f5f5;
+}
+
+#Search {
+    color: $jungle_green;
+}
+</style>
