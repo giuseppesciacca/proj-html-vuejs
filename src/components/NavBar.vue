@@ -27,6 +27,8 @@ export default {
                     </li>
                 </ul>
 
+                <button class="btn"><font-awesome-icon :icon="['far', 'circle-user']" size="sm" /></button>
+
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>

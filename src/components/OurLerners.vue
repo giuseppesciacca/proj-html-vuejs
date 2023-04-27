@@ -79,6 +79,17 @@ export default {
 
         </div>
     </section>
+
+    <section id="start_today" class="text-center py-5">
+        <div class="my_container position-relative">
+            <h5>Start today for getting <span>Online Certification</span></h5>
+            <h2>You can be your own guiding star with our help!</h2>
+            <button class="btn">Get started now</button>
+
+            <img src="../assets/img/maxcoach-shape-01.png" alt="">
+            <img src="../assets/img/maxcoach-shape-02.png" alt="">
+        </div>
+    </section>
 </template>
 
 <style lang="scss" scoped>
