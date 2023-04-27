@@ -14,8 +14,10 @@ export default {
                     <p>Learning is a life-long journey that in fact we never find the terminate stop. Stop searching,
                         enjoy the process.
                     </p>
-                    <button class="btn btn-success">Download free guide</button>
-                    <p>Have questions? <a href="#">Get Free Sample -></a></p>
+                    <button class="btn btn-success">
+                        <font-awesome-icon :icon="['fas', 'download']" /> Download free guide </button>
+                    <p>Have questions? <a href="#">Get Free Sample <font-awesome-icon
+                                :icon="['fas', 'arrow-right-long']" /></a></p>
                 </div>
 
                 <div class="col-7 image position-relative">
