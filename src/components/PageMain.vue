@@ -1,12 +1,14 @@
 <script>
 import JumbotronVue from './JumbotronVue.vue';
 import FeaturedCourses from './FeaturedCourses.vue';
+import AccessTutoring from './AccessTutoring.vue';
 
 export default {
     name: 'PageMain',
     components: {
         JumbotronVue,
-        FeaturedCourses
+        FeaturedCourses,
+        AccessTutoring,
     }
 }
 </script>
@@ -15,9 +17,10 @@ export default {
     <main>
         <JumbotronVue />
         <FeaturedCourses />
-
-
+        <AccessTutoring />
     </main>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@use '../assets/scss/partials/variables.scss' as *;
+</style>
