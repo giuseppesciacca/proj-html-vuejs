@@ -12,19 +12,19 @@ export default {
                 },
                 {
                     "text": "Blog",
-                    "src": "#"
+                    "src": "#most_viewed"
                 },
                 {
                     "text": "About us",
-                    "src": "#"
+                    "src": "#access_tutoring"
                 },
                 {
                     "text": "Success story",
-                    "src": "#"
+                    "src": "#our_learners"
                 },
                 {
                     "text": "Courses",
-                    "src": "#"
+                    "src": "#featured_online_courses"
                 },
                 {
                     "text": "Contact us",
@@ -60,10 +60,11 @@ export default {
 <template>
     <div class="row ">
         <div id="explore_menu" class="col-6">
-            <h5 class="my-3 ms-3">Explore</h5>
+            <h5 class="my-3 ms-1">Explore</h5>
             <div class="d-flex">
 
-                <ListFooter class="explore_list" :array="exploreLinks" :src="exploreLinks.src" :text="exploreLinks.text" />
+                <ListFooter class="explore_list ms-1" :array="exploreLinks" :src="exploreLinks.src"
+                    :text="exploreLinks.text" />
 
             </div>
         </div>
@@ -80,6 +81,5 @@ export default {
 <style lang="scss">
 .explore_list {
     columns: 2;
-    margin-left: 1rem;
 }
 </style>
