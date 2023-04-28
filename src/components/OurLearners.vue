@@ -3,6 +3,7 @@ export default {
     name: 'OurLearners',
     data() {
         return {
+            active: 1,
             learners: [
                 {
                     name: 'FLORENCE THEMES',
@@ -27,7 +28,12 @@ export default {
                 }
             ]
         }
-    }
+    },
+    methods: {
+        changeActive(index) {
+            this.active = index;
+        }
+    },
 }
 </script>
 
@@ -39,8 +45,8 @@ export default {
 
             <div class="row">
 
-                <div v-for="learner in learners" class="col-4">
-                    <div class="card p-4 border-0 h-100">
+                <div v-for="learner, index in learners" class="col-4" @click="changeActive(index)">
+                    <div class="card p-4 border-0 h-100" :class="index == this.active ? 'active' : ''">
                         <h6 class="title pb-3">{{ learner.title }}</h6>
                         <p class="text pb-3">{{ learner.text }}</p>
                         <div class="d-flex">
@@ -116,6 +122,8 @@ export default {
 }
 
 .card {
+
+    cursor: pointer;
 
     .title,
     .name {
