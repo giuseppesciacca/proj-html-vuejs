@@ -111,19 +111,19 @@ export default {
         .img_dot1 {
             position: absolute;
             top: 275px;
-            left: 60px;
+            left: 30px;
         }
 
         .img_dot2 {
             position: absolute;
             top: 420px;
-            left: 60px;
+            left: 30px;
         }
 
         .img_dot3 {
             position: absolute;
             bottom: 10px;
-            right: 70px;
+            right: 90px;
         }
 
         .img_circle {
@@ -135,7 +135,7 @@ export default {
         .circle_svg {
             position: absolute;
             bottom: 148px;
-            left: 85px;
+            left: 50px;
             z-index: -1;
         }
     }

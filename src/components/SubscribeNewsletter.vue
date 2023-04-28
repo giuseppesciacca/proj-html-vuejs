@@ -59,20 +59,20 @@ export default {
     .img_circle {
         position: absolute;
         bottom: 0;
-        right: -250px;
+        right: -300px;
         z-index: 1;
     }
 
     .svg_circle {
         position: absolute;
         bottom: 10px;
-        left: -250px;
+        left: -300px;
     }
 
     .img_square_rotate {
         position: absolute;
         bottom: 55px;
-        right: -250px;
+        right: -300px;
     }
 
     .input-group-text {

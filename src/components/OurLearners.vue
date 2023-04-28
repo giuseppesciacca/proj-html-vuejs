@@ -81,7 +81,7 @@ export default {
     </section>
 
     <section id="start_today" class="text-center py-5">
-        <div class="my_container position-relative">
+        <div class="my_container position-relative pb-5">
             <h5>Start today for getting <span>Online Certification</span></h5>
             <h2 class="pb-3">You can be your own guiding star with our help!</h2>
             <button class="btn">Get started now</button>
@@ -184,19 +184,19 @@ export default {
     .img_line {
         position: absolute;
         top: 40%;
-        left: 8%;
+        left: 3%;
     }
 
     .img_circle {
         position: absolute;
         top: 40%;
-        right: 8%;
+        right: 3%;
     }
 
     .svg_circle {
         position: absolute;
         top: -10px;
-        left: 8%;
+        left: 3%;
 
     }
 }

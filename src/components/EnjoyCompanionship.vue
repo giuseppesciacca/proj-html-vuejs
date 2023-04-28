@@ -99,20 +99,20 @@ p {
 
 .img_dot_circle {
     position: absolute;
-    top: 90px;
-    left: -65px;
+    top: 110px;
+    left: -95px;
 }
 
 .img_dot_square {
     position: absolute;
-    bottom: -20px;
-    right: 15px;
+    bottom: -10px;
+    right: 0;
 }
 
 .svg_circle {
     position: absolute;
     top: 0;
-    right: -100px;
+    right: -120px;
 }
 
 .wave-1hkxOo {
