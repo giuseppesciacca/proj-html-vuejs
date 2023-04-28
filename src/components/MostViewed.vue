@@ -12,23 +12,23 @@ export default {
                     <h5 class="title_h5">ENJOYABLE INSIGHTS</h5>
                     <h2>Most Viewed <span>Best Blogs</span></h2>
                     <ul class="p-0">
-                        <li class="pb-3"><a href="#"><font-awesome-icon :icon="['fas', 'arrow-right-long']" /> Become a
+                        <li class="py-2"><a href="#"> Become a
                                 Better
                                 Blogger: Content
                                 Planning</a></li>
-                        <li class="pb-3"><a href="#"><font-awesome-icon :icon="['fas', 'arrow-right-long']" /> Promoting
+                        <li class="py-2"><a href="#"> Promoting
                                 Your Online
                                 Business on
                                 Pinterest</a></li>
-                        <li class="pb-3"><a href="#"><font-awesome-icon :icon="['fas', 'arrow-right-long']" /> Gamification
+                        <li class="py-2"><a href="#"> Gamification
                                 and
                                 Game-Based Learning</a>
                         </li>
-                        <li class="pb-3"><a href="#"><font-awesome-icon :icon="['fas', 'arrow-right-long']" /> Designing an
+                        <li class="py-2"><a href="#"> Designing an
                                 Online Course
                                 from
                                 Expert's Perspective</a></li>
-                        <li class="pb-3"><a href="#"><font-awesome-icon :icon="['fas', 'arrow-right-long']" /> Why Online
+                        <li class="py-2"><a href="#"> Why Online
                                 Courses Are the
                                 Future of
                                 Education</a></li>
@@ -88,6 +88,18 @@ export default {
 
     ul {
         list-style: none;
+    }
+
+    li {
+        position: relative;
+        padding-left: 15px;
+    }
+
+    li::before {
+        content: "\2192";
+        position: absolute;
+        top: 5px;
+        left: -10px;
     }
 
     a {
