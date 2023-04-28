@@ -1,6 +1,33 @@
 <script>
 export default {
-    name: 'OurLearners'
+    name: 'OurLearners',
+    data() {
+        return {
+            learners: [
+                {
+                    name: 'FLORENCE THEMES',
+                    src: 'testimonial-avata-03.jpg',
+                    title: 'It\'s a choice of quality for people with special needs',
+                    text: 'I\'m a very strict person so I require everythoing to be organized and neat. Then, I\'ll be able to make things right and shine. MaxCoach guys just got me.',
+                    role: '/Multimedia Admin'
+                },
+                {
+                    name: 'MINA HOLLACE',
+                    src: 'testimonial-avata-02.jpg',
+                    title: 'High level of efficency and scentific teaching methods',
+                    text: 'I am free to learn at my own pace, follow my own schedule and choose the subject I want to learn from the syllabus.Great study portal for people like me.',
+                    role: '/Freelancer'
+                },
+                {
+                    name: 'MADLEY PONDOR',
+                    src: 'testimonial-avata-01.jpg',
+                    title: 'Professional team of specialists and passionate mentors at reach',
+                    text: 'I need to get a certification for English proficency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.',
+                    role: '/IT Specialist'
+                }
+            ]
+        }
+    }
 }
 </script>
 
@@ -11,50 +38,16 @@ export default {
             <h3 class="text-center pb-5">Our <span>top learners'</span> verbatim</h3>
 
             <div class="row">
-                <div class="col-4">
-                    <div class="card p-5 border-0">
-                        <h6 class="title pb-3">It's a choice of quality for people with special needs</h6>
-                        <p class="text pb-3">I'm a very strict person so I require everythoing to be organized and neat.
-                            Then,
-                            I'll be able to
-                            make things right and shine. MaxCoach guys just got me.</p>
-                        <div class="d-flex">
-                            <img class="img-fluid" width="70" src="/public/img/testimonial-avata-03.jpg" alt="">
-                            <div class="ps-3">
-                                <p class="name mb-2">FLORENCE THEMES</p>
-                                <p class="role">/Multimedia Admin</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.col -->
 
-                <div class="col-4">
-                    <div class="card p-5 border-0 active">
-                        <h6 class="title pb-3">High level of efficency and scentific teaching methods</h6>
-                        <p class="text pb-3">I am free to learn at my own pace, follow my own schedule and choose the
-                            subject I want to learn from the syllabus. Great study portal for people like me.</p>
+                <div v-for="learner in learners" class="col-4">
+                    <div class="card p-4 border-0 h-100">
+                        <h6 class="title pb-3">{{ learner.title }}</h6>
+                        <p class="text pb-3">{{ learner.text }}</p>
                         <div class="d-flex">
-                            <img class="img-fluid" width="70" src="/public/img/testimonial-avata-02.jpg" alt="">
+                            <img class="img-fluid" width="70" :src="'/public/img/' + learner.src" :alt="learner.name">
                             <div class="ps-3">
-                                <p class="name mb-2">MINA HOLLACE</p>
-                                <p class="role">/Freelancer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.col -->
-
-                <div class="col-4">
-                    <div class="card p-5 border-0">
-                        <h6 class="title pb-3">Professional team of specialists and passionate mentors at reach</h6>
-                        <p class="text pb-3">I need to get a certification for English proficency and MaxCoach is my best
-                            choice. Their tutors are smart and professional when dealing with students.</p>
-                        <div class="d-flex">
-                            <img class="img-fluid" width="70" src="/public/img/testimonial-avata-04.jpg" alt="">
-                            <div class="ps-3">
-                                <p class="name mb-2">MADLEY PONDOR</p>
-                                <p class="role">/IT Specialist</p>
+                                <p class="name mb-2">{{ learner.name }}</p>
+                                <p class="role">{{ learner.role }}</p>
                             </div>
                         </div>
                     </div>
