@@ -1,17 +1,56 @@
 <script>
 import ListFooter from './ListFooter.vue';
-//data links
-import explorePartOne from '../assets/data/exploreLink.json';
-import explorePartTwo from '../assets/data/exploreLinkSecondPart.json';
-import informationLink from '../assets/data/informationLinks.json';
 
 export default {
     name: 'FooterLinks',
     data() {
         return {
-            explorePartOne,
-            explorePartTwo,
-            informationLink
+            exploreLinksFirstPart: [
+                {
+                    "text": "Start here",
+                    "src": "#"
+                },
+                {
+                    "text": "Blog",
+                    "src": "#"
+                },
+                {
+                    "text": "About us",
+                    "src": "#"
+                }
+            ],
+            exploreLinksSecondPart: [
+                {
+                    "text": "Success story",
+                    "src": "#"
+                },
+                {
+                    "text": "Courses",
+                    "src": "#"
+                },
+                {
+                    "text": "Contact us",
+                    "src": "#"
+                }
+            ],
+            informationLinks: [
+                {
+                    "text": "Membership",
+                    "src": "#"
+                },
+                {
+                    "text": "Purchase guide",
+                    "src": "#"
+                },
+                {
+                    "text": "Privacy policy",
+                    "src": "#"
+                },
+                {
+                    "text": "Terms of services",
+                    "src": "#"
+                }
+            ]
         }
     },
     components: {
@@ -26,9 +65,11 @@ export default {
             <h5 class="my-3">Explore</h5>
             <div class="d-flex">
 
-                <ListFooter :array="explorePartOne" :src="explorePartOne.src" :text="explorePartOne.text" />
+                <ListFooter :array="exploreLinksFirstPart" :src="exploreLinksFirstPart.src"
+                    :text="exploreLinksFirstPart.text" />
 
-                <ListFooter :array="explorePartTwo" :src="explorePartOne.src" :text="explorePartOne.text" />
+                <ListFooter :array="exploreLinksSecondPart" :src="exploreLinksSecondPart.src"
+                    :text="exploreLinksSecondPart.text" />
 
             </div>
         </div>
@@ -36,7 +77,7 @@ export default {
         <div id="information_menu" class="col-6">
             <h5 class="my-3">Information</h5>
 
-            <ListFooter :array="informationLink" :src="explorePartOne.src" :text="explorePartOne.text" />
+            <ListFooter :array="informationLinks" :src="informationLinks.src" :text="informationLinks.text" />
         </div>
 
     </div>

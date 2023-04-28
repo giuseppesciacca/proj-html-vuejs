@@ -12,7 +12,7 @@ export default {
             <h2>Access <span>Smart Tutoring</span> Program For Benefits.</h2>
 
             <div class="row text-start justify-content-center py-5 g-3">
-                <div class="col-4">
+                <div class="col-4 p-3">
                     <img class="img-fluid" src="/public/img/home-2-image-box-01.png" alt="">
                     <h4 class="py-3">Customize Preferences</h4>
                     <p>Learners are given the right arrange and customize their study schedule and timetable based on
@@ -22,7 +22,7 @@ export default {
                 </div>
                 <!-- /card -->
 
-                <div class="col-4">
+                <div class="col-4 p-3">
                     <img class="img-fluid" src="/public/img/home-2-image-box-02.png" alt="">
                     <h4 class="py-3">Cloud Storage</h4>
                     <p>You can store online lessons via online cloud or download to your device and revise lessons on the
@@ -32,10 +32,10 @@ export default {
                 </div>
                 <!-- /card -->
 
-                <div class="col-4">
+                <div class="col-4 p-3">
                     <img class="img-fluid" src="/public/img/home-2-image-box-03.png" alt="">
                     <h4 class="py-3">Multimedia Channels</h4>
-                    <p>We provide study materials with various formats: video, audio, slides, doc, prints, book and
+                    <p>We provide study materials with various formats: video, audio, slides, doc, prints, books and
                         applications.</p>
 
                     <p><a href="#">Start now <font-awesome-icon :icon="['fas', 'arrow-right-long']" /></a></p>
