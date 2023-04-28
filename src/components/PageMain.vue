@@ -1,5 +1,6 @@
 <script>
 import JumbotronVue from './JumbotronVue.vue';
+import SideNav from './SideNav.vue';
 import FeaturedCourses from './FeaturedCourses.vue';
 import AccessTutoring from './AccessTutoring.vue';
 import EnjoyCompanionship from './EnjoyCompanionship.vue';
@@ -12,6 +13,7 @@ export default {
     name: 'PageMain',
     components: {
         JumbotronVue,
+        SideNav,
         FeaturedCourses,
         AccessTutoring,
         EnjoyCompanionship,
@@ -25,6 +27,7 @@ export default {
 
 <template>
     <main>
+        <SideNav />
         <JumbotronVue />
         <FeaturedCourses />
         <AccessTutoring />

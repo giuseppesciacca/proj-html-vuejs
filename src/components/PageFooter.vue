@@ -63,13 +63,11 @@ footer {
 
     h5 {
         color: $cod_gray;
-        font-weight: 600;
     }
 
     a,
     p {
         color: $edward;
-        font-weight: 600;
     }
 
     .credits {
