@@ -15,6 +15,11 @@ export default {
                     <img class="img-fluid img_dot_circle" src="../assets/img/maxcoach-shape-05.png" alt="">
                     <img class="img-fluid img_dot_square" src="../assets/img/maxcoach-shape-07.png" alt="">
 
+                    <svg class="svg_circle" width="100" height="100">
+                        <circle cx="50" cy="50" r="40" stroke="#ecc5ab" stroke-width="12" fill="white" />
+                        Sorry, your browser does not support inline SVG.
+                    </svg>
+
                 </div>
                 <div class="col-5 d-flex flex-column justify-content-center px-5">
                     <h6>GET STARDED <span>EFFORTLESSLY</span></h6>
@@ -102,6 +107,12 @@ p {
     position: absolute;
     bottom: -20px;
     right: 15px;
+}
+
+.svg_circle {
+    position: absolute;
+    top: 0;
+    right: -100px;
 }
 
 .wave-1hkxOo {

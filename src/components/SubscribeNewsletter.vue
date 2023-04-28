@@ -23,6 +23,10 @@ export default {
 
                         <img class="img_circle" src="../assets/img/maxcoach-shape-02.png" alt="">
                         <img class="img_square_rotate" src="../assets/img/maxcoach-shape-09.png" alt="">
+                        <svg class="svg_circle" width="80" height="80">
+                            <circle cx="30" cy="30" r="20" stroke="#8fd6ca" stroke-width="6" fill="white" />
+                            Sorry, your browser does not support inline SVG.
+                        </svg>
                     </form>
                 </div>
             </div>
@@ -57,6 +61,12 @@ export default {
         bottom: 0;
         right: -250px;
         z-index: 1;
+    }
+
+    .svg_circle {
+        position: absolute;
+        bottom: 10px;
+        left: -250px;
     }
 
     .img_square_rotate {

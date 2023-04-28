@@ -88,6 +88,11 @@ export default {
 
             <img class="img_line" src="../assets/img/maxcoach-shape-01.png" alt="">
             <img class="img_circle" src="../assets/img/maxcoach-shape-02.png" alt="">
+
+            <svg class="svg_circle" width="80" height="80">
+                <circle cx="30" cy="30" r="20" stroke="#e6dcd2" stroke-width="6" fill="#f6f3f5" />
+                Sorry, your browser does not support inline SVG.
+            </svg>
         </div>
     </section>
 </template>
@@ -184,6 +189,13 @@ export default {
         position: absolute;
         top: 40%;
         right: 8%;
+    }
+
+    .svg_circle {
+        position: absolute;
+        top: -10px;
+        left: 8%;
+
     }
 }
 </style>
