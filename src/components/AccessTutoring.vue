@@ -62,7 +62,7 @@ h4 {
 
     span {
         color: $jungle_green;
-        font-weight: 500;
+        font-weight: normal;
     }
 }
 

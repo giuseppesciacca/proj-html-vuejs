@@ -14,13 +14,15 @@ export default {
                         regular basis!
                     </p>
 
-                    <form action="">
+                    <form action="" class="position-relative">
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" placeholder="Enter your email"
                                 aria-label="Enter your email" aria-describedby="basic-addon2">
                             <button class="input-group-text" id="basic-addon2">Subscribe</button>
                         </div>
 
+                        <img class="img_circle" src="../assets/img/maxcoach-shape-02.png" alt="">
+                        <img class="img_square_rotate" src="../assets/img/maxcoach-shape-09.png" alt="">
                     </form>
                 </div>
             </div>
@@ -48,6 +50,19 @@ export default {
     p {
         color: $shady_lady;
         font-weight: bold;
+    }
+
+    .img_circle {
+        position: absolute;
+        bottom: 0;
+        right: -250px;
+        z-index: 1;
+    }
+
+    .img_square_rotate {
+        position: absolute;
+        bottom: 55px;
+        right: -250px;
     }
 
     .input-group-text {
