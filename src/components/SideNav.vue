@@ -14,6 +14,10 @@ export default {
 
         <button class="p-0 border-0"><font-awesome-icon :icon="['fas', 'cart-shopping']" size="xs" /></button>
     </div>
+
+    <div id="go_up" class="d-flex align-items-center justify-content-center">
+        <a href="#"><font-awesome-icon :icon="['fas', 'arrow-up']" /></a>
+    </div>
 </template>
 
 <style lang="scss" scoped>
@@ -35,6 +39,22 @@ export default {
 
     button:active {
         scale: 0.90;
+    }
+}
+
+#go_up {
+    width: 50px;
+    height: 50px;
+    background-color: $jungle_green;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    z-index: 100;
+
+    a {
+        color: $white;
+        padding: 1rem;
     }
 }
 </style>
