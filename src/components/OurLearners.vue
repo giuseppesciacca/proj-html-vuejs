@@ -45,8 +45,9 @@ export default {
 
             <div class="row">
 
-                <div v-for="learner, index in learners" class="col-4" @click="changeActive(index)">
-                    <div class="card p-4 border-0 h-100" :class="index == this.active ? 'active' : ''">
+                <div v-for="learner, index in learners" class="col-4">
+                    <div class="card p-4 border-0 h-100" :class="index == this.active ? 'active' : ''"
+                        @click="changeActive(index)">
                         <h6 class="title pb-3">{{ learner.title }}</h6>
                         <p class="text pb-3">{{ learner.text }}</p>
                         <div class="d-flex">

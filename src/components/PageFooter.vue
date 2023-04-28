@@ -19,17 +19,17 @@ export default {
                     <p>+1 (305) 547-9909 (9am - 5pm EST, Monday - Friday)</p>
                     <a href="#">support@maxcoach.com</a>
 
-                    <div class="my-3">
-                        <a href="#" class="me-4">
+                    <div class="my-3 icon_social">
+                        <a href="#" class="me-4 fb">
                             <font-awesome-icon :icon="['fab', 'square-facebook']" size="xl" />
                         </a>
-                        <a href="#" class="me-4">
+                        <a href="#" class="me-4 tw">
                             <font-awesome-icon :icon="['fab', 'twitter']" size="xl" />
                         </a>
-                        <a href="#" class="me-4">
+                        <a href="#" class="me-4 ist">
                             <font-awesome-icon :icon="['fab', 'instagram']" size="xl" />
                         </a>
-                        <a href="#" class="me-4">
+                        <a href="#" class="me-4 lin">
                             <font-awesome-icon :icon="['fab', 'linkedin']" size="xl" />
                         </a>
                     </div>
@@ -55,6 +55,29 @@ footer {
 
     a {
         text-decoration: none;
+    }
+
+    a:hover {
+        color: $gun_powder;
+        text-decoration: underline;
+    }
+
+    .icon_social {
+        .fb:hover {
+            color: #1873eb;
+        }
+
+        .tw:hover {
+            color: #1c96e9;
+        }
+
+        .ist:hover {
+            color: #f6086c;
+        }
+
+        .lin:hover {
+            color: #0073b1;
+        }
     }
 
     ul {
