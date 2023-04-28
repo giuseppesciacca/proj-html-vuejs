@@ -29,6 +29,10 @@ export default {
 
                     <img class="img-fluid img_dot1" src="../assets/img/maxcoach-shape-08.png" alt="">
                     <img class="img-fluid img_dot2" src="../assets/img/maxcoach-shape-08.png" alt="">
+
+                    <svg class="circle_svg" width="80" height="80">
+                        <circle cx="40" cy="40" r="30" stroke="#ecc5ab" stroke-width="8" fill="white" />
+                    </svg>
                 </div>
 
                 <div class="col d-flex justify-content-center align-items-center">
@@ -126,6 +130,13 @@ export default {
             position: absolute;
             top: 250px;
             left: 100%;
+        }
+
+        .circle_svg {
+            position: absolute;
+            bottom: 148px;
+            left: 85px;
+            z-index: -1;
         }
     }
 }
