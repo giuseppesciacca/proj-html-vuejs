@@ -63,6 +63,10 @@ p {
         text-decoration: none;
         border-bottom: 1px solid $shady_lady;
     }
+
+    a:hover {
+        color: #3f3a64;
+    }
 }
 
 .img_video {
@@ -70,6 +74,7 @@ p {
     top: 65px;
     right: 0;
     z-index: 1;
+    box-shadow: 0px 120px 50px -100px #d8d8d8;
 }
 
 .icon_youtube {

@@ -34,7 +34,12 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variables.scss' as *;
+
 header {
+
+    box-shadow: 0px 5px 5px #f8f8f8;
+
     .row {
         height: 80px;
     }

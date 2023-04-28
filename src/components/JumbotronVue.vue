@@ -16,7 +16,7 @@ export default {
                     </p>
                     <button class="btn">
                         <font-awesome-icon :icon="['fas', 'download']" /> Download free guide </button>
-                    <p>Have questions? <a href="#">Get Free Sample <font-awesome-icon
+                    <p class="pt-3">Have questions? <a href="#">Get Free Sample <font-awesome-icon
                                 :icon="['fas', 'arrow-right-long']" /></a></p>
                 </div>
 
