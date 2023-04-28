@@ -62,8 +62,9 @@ export default {
             <div class="row py-5 g-3">
                 <div v-for="item in courses " class="col-6 d-flex align-items-center p-3">
                     <div class="col-4 ps-3">
-                        <!-- :src="'../assets/img/' + item.src" -->
-                        <img class="img-fluid" src="../assets/img/stock-full-hd-05-480x298.jpg" :alt="item.title">
+                        <!-- src="../assets/img/stock-full-hd-05-480x298.jpg"  -->
+                        <img class="img-fluid" :src="'/public/img/' + item.src" :alt="item.title">
+                        <!-- <img src="/public/img/stock-full-hd-05-480x298.jpg" alt=""> -->
                     </div>
                     <div class="col-8 pe-5 ps-3">
                         <p class="item_price fw-bold fs-5">{{ item.price }}<span v-show="item.price != 'Free'"

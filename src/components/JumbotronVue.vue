@@ -22,13 +22,13 @@ export default {
 
                 <div class="col-7 image position-relative">
                     <img class="img-fluid img_main"
-                        src="../assets/img/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" alt="">
+                        src="/public/img/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" alt="">
 
-                    <img class="img-fluid img_circle" src="../assets/img/maxcoach-shape-02.png" alt="">
-                    <img class="img-fluid img_dot3" src="../assets/img/maxcoach-shape-07.png" alt="">
+                    <img class="img-fluid img_circle" src="/public/img/maxcoach-shape-02.png" alt="">
+                    <img class="img-fluid img_dot3" src="/public/img/maxcoach-shape-07.png" alt="">
 
-                    <img class="img-fluid img_dot1" src="../assets/img/maxcoach-shape-08.png" alt="">
-                    <img class="img-fluid img_dot2" src="../assets/img/maxcoach-shape-08.png" alt="">
+                    <img class="img-fluid img_dot1" src="/public/img/maxcoach-shape-08.png" alt="">
+                    <img class="img-fluid img_dot2" src="/public/img/maxcoach-shape-08.png" alt="">
 
                     <svg class="circle_svg" width="80" height="80">
                         <circle cx="40" cy="40" r="30" stroke="#ecc5ab" stroke-width="8" fill="white" />
@@ -36,22 +36,22 @@ export default {
                 </div>
 
                 <div class="col d-flex justify-content-center align-items-center">
-                    <img src="../assets/img/client-logo-01.png" alt="">
+                    <img src="/public/img/client-logo-01.png" alt="">
                 </div>
                 <div class="col d-flex justify-content-center align-items-center">
-                    <img src="../assets/img/client-logo-02.png" alt="">
+                    <img src="/public/img/client-logo-02.png" alt="">
                 </div>
                 <div class="col d-flex justify-content-center align-items-center">
-                    <img src="../assets/img/client-logo-03.png" alt="">
+                    <img src="/public/img/client-logo-03.png" alt="">
                 </div>
                 <div class="col d-flex justify-content-center align-items-center">
-                    <img src="../assets/img/client-logo-04.png" alt="">
+                    <img src="/public/img/client-logo-04.png" alt="">
                 </div>
                 <div class="col d-flex justify-content-center align-items-center">
-                    <img src="../assets/img/client-logo-05.png" alt="">
+                    <img src="/public/img/client-logo-05.png" alt="">
                 </div>
                 <div class="col d-flex justify-content-center align-items-center">
-                    <img src="../assets/img/client-logo-06.png" alt="">
+                    <img src="/public/img/client-logo-06.png" alt="">
                 </div>
             </div>
         </div>

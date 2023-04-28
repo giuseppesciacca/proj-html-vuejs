@@ -9,11 +9,11 @@ export default {
         <div class="my_container">
             <div class="row">
                 <div class="col-7 image position-relative">
-                    <img class="img-fluid img_video" src="../assets/img/home-2-popup-video-poster.jpg" alt="">
+                    <img class="img-fluid img_video" src="/public/img/home-2-popup-video-poster.jpg" alt="">
 
-                    <img class="img-fluid icon_youtube" src="../assets/img/icon-youtube-play.png" alt="">
-                    <img class="img-fluid img_dot_circle" src="../assets/img/maxcoach-shape-05.png" alt="">
-                    <img class="img-fluid img_dot_square" src="../assets/img/maxcoach-shape-07.png" alt="">
+                    <img class="img-fluid icon_youtube" src="/public/img/icon-youtube-play.png" alt="">
+                    <img class="img-fluid img_dot_circle" src="/public/img/maxcoach-shape-05.png" alt="">
+                    <img class="img-fluid img_dot_square" src="/public/img/maxcoach-shape-07.png" alt="">
 
                     <svg class="svg_circle" width="100" height="100">
                         <circle cx="50" cy="50" r="40" stroke="#ecc5ab" stroke-width="12" fill="white" />

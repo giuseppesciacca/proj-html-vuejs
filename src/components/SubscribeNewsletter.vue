@@ -21,8 +21,8 @@ export default {
                             <button class="input-group-text" id="basic-addon2">Subscribe</button>
                         </div>
 
-                        <img class="img_circle" src="../assets/img/maxcoach-shape-02.png" alt="">
-                        <img class="img_square_rotate" src="../assets/img/maxcoach-shape-09.png" alt="">
+                        <img class="img_circle" src="/public/img/maxcoach-shape-02.png" alt="">
+                        <img class="img_square_rotate" src="/public/img/maxcoach-shape-09.png" alt="">
                         <svg class="svg_circle" width="80" height="80">
                             <circle cx="30" cy="30" r="20" stroke="#8fd6ca" stroke-width="6" fill="white" />
                             Sorry, your browser does not support inline SVG.

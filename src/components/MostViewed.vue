@@ -37,7 +37,7 @@ export default {
 
                 <div class="col-4">
                     <div class="card border-0">
-                        <img class="card-img-top" src="../assets/img/artist-blog-03-480x352.jpeg" alt="">
+                        <img class="card-img-top" src="/public/img/artist-blog-03-480x352.jpeg" alt="">
                         <div class="card-body">
                             <p class="card-text mb-1">ARTIST</p>
                             <h5 class="card-title">Brush Strokes Energize Trees in Paintings</h5>
@@ -49,7 +49,7 @@ export default {
 
                 <div class="col-4">
                     <div class="card border-0">
-                        <img class="card-img-top" src="../assets/img/artist-blog-01-480x352.jpg" alt="">
+                        <img class="card-img-top" src="/public/img/artist-blog-01-480x352.jpg" alt="">
                         <div class="card-body">
                             <p class="card-text mb-1">ARTIST</p>
                             <h5 class="card-title">Pocket-Sized Notebooks Hold Miniature Paintings</h5>

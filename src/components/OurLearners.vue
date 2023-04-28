@@ -6,7 +6,7 @@ export default {
 
 <template>
     <section id="our_learners" class="py-5">
-        <div class="container">
+        <div class="my_container">
             <h6 class="text-center">GREAT WORDS ABOUT MAXCOACH</h6>
             <h3 class="text-center pb-5">Our <span>top learners'</span> verbatim</h3>
 
@@ -19,7 +19,7 @@ export default {
                             I'll be able to
                             make things right and shine. MaxCoach guys just got me.</p>
                         <div class="d-flex">
-                            <img class="img-fluid" width="70" src="../assets/img/testimonial-avata-03.jpg" alt="">
+                            <img class="img-fluid" width="70" src="/public/img/testimonial-avata-03.jpg" alt="">
                             <div class="ps-3">
                                 <p class="name mb-2">FLORENCE THEMES</p>
                                 <p class="role">/Multimedia Admin</p>
@@ -35,7 +35,7 @@ export default {
                         <p class="text pb-3">I am free to learn at my own pace, follow my own schedule and choose the
                             subject I want to learn from the syllabus. Great study portal for people like me.</p>
                         <div class="d-flex">
-                            <img class="img-fluid" width="70" src="../assets/img/testimonial-avata-02.jpg" alt="">
+                            <img class="img-fluid" width="70" src="/public/img/testimonial-avata-02.jpg" alt="">
                             <div class="ps-3">
                                 <p class="name mb-2">MINA HOLLACE</p>
                                 <p class="role">/Freelancer</p>
@@ -51,7 +51,7 @@ export default {
                         <p class="text pb-3">I need to get a certification for English proficency and MaxCoach is my best
                             choice. Their tutors are smart and professional when dealing with students.</p>
                         <div class="d-flex">
-                            <img class="img-fluid" width="70" src="../assets/img/testimonial-avata-04.jpg" alt="">
+                            <img class="img-fluid" width="70" src="/public/img/testimonial-avata-04.jpg" alt="">
                             <div class="ps-3">
                                 <p class="name mb-2">MADLEY PONDOR</p>
                                 <p class="role">/IT Specialist</p>
@@ -86,8 +86,8 @@ export default {
             <h2 class="pb-3">You can be your own guiding star with our help!</h2>
             <button class="btn">Get started now</button>
 
-            <img class="img_line" src="../assets/img/maxcoach-shape-01.png" alt="">
-            <img class="img_circle" src="../assets/img/maxcoach-shape-02.png" alt="">
+            <img class="img_line" src="/public/img/maxcoach-shape-01.png" alt="">
+            <img class="img_circle" src="/public/img/maxcoach-shape-02.png" alt="">
 
             <svg class="svg_circle" width="80" height="80">
                 <circle cx="30" cy="30" r="20" stroke="#e6dcd2" stroke-width="6" fill="#f6f3f5" />

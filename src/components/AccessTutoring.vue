@@ -13,7 +13,7 @@ export default {
 
             <div class="row text-start justify-content-center py-5 g-3">
                 <div class="col-4">
-                    <img class="img-fluid" src="../assets/img/home-2-image-box-01.png" alt="">
+                    <img class="img-fluid" src="/public/img/home-2-image-box-01.png" alt="">
                     <h4 class="py-3">Customize Preferences</h4>
                     <p>Learners are given the right arrange and customize their study schedule and timetable based on
                         preferences.</p>
@@ -23,7 +23,7 @@ export default {
                 <!-- /card -->
 
                 <div class="col-4">
-                    <img class="img-fluid" src="../assets/img/home-2-image-box-02.png" alt="">
+                    <img class="img-fluid" src="/public/img/home-2-image-box-02.png" alt="">
                     <h4 class="py-3">Cloud Storage</h4>
                     <p>You can store online lessons via online cloud or download to your device and revise lessons on the
                         way.</p>
@@ -33,7 +33,7 @@ export default {
                 <!-- /card -->
 
                 <div class="col-4">
-                    <img class="img-fluid" src="../assets/img/home-2-image-box-03.png" alt="">
+                    <img class="img-fluid" src="/public/img/home-2-image-box-03.png" alt="">
                     <h4 class="py-3">Multimedia Channels</h4>
                     <p>We provide study materials with various formats: video, audio, slides, doc, prints, book and
                         applications.</p>

@@ -19,7 +19,7 @@ export default {
         <div class="my_container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-auto">
-                    <img class="img-fluid" src="../assets/img/dark-logo.png" width="160" alt="">
+                    <img class="img-fluid" src="/public/img/dark-logo.png" width="160" alt="">
                 </div>
 
                 <div class="col-auto">
