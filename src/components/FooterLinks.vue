@@ -5,7 +5,7 @@ export default {
     name: 'FooterLinks',
     data() {
         return {
-            exploreLinksFirstPart: [
+            exploreLinks: [
                 {
                     "text": "Start here",
                     "src": "#"
@@ -17,9 +17,7 @@ export default {
                 {
                     "text": "About us",
                     "src": "#"
-                }
-            ],
-            exploreLinksSecondPart: [
+                },
                 {
                     "text": "Success story",
                     "src": "#"
@@ -62,14 +60,10 @@ export default {
 <template>
     <div class="row ">
         <div id="explore_menu" class="col-6">
-            <h5 class="my-3">Explore</h5>
+            <h5 class="my-3 ms-3">Explore</h5>
             <div class="d-flex">
 
-                <ListFooter :array="exploreLinksFirstPart" :src="exploreLinksFirstPart.src"
-                    :text="exploreLinksFirstPart.text" />
-
-                <ListFooter :array="exploreLinksSecondPart" :src="exploreLinksSecondPart.src"
-                    :text="exploreLinksSecondPart.text" />
+                <ListFooter class="explore_list" :array="exploreLinks" :src="exploreLinks.src" :text="exploreLinks.text" />
 
             </div>
         </div>
@@ -83,4 +77,9 @@ export default {
     </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss">
+.explore_list {
+    columns: 2;
+    margin-left: 1rem;
+}
+</style>
