@@ -6,13 +6,13 @@ export default {
 
 <template>
     <div id="side_nav" class="d-flex flex-column justify-content-between align-items-center p-1">
-        <button class="btn p-0"> <font-awesome-icon :icon="['fas', 'ruler-combined']" size="xs" /></button>
+        <button class="p-0 border-0"> <font-awesome-icon :icon="['fas', 'ruler-combined']" size="xs" /></button>
 
-        <button class="btn p-0"><font-awesome-icon :icon="['far', 'life-ring']" size="xs" /></button>
+        <button class="p-0 border-0"><font-awesome-icon :icon="['far', 'life-ring']" size="xs" /></button>
 
-        <button class="btn p-0"><font-awesome-icon :icon="['fas', 'book']" size="xs" /></button>
+        <button class="p-0 border-0"><font-awesome-icon :icon="['fas', 'book']" size="xs" /></button>
 
-        <button class="btn p-0"><font-awesome-icon :icon="['fas', 'cart-shopping']" size="xs" /></button>
+        <button class="p-0 border-0"><font-awesome-icon :icon="['fas', 'cart-shopping']" size="xs" /></button>
     </div>
 </template>
 
@@ -30,6 +30,11 @@ export default {
 
     button {
         color: $gun_powder;
+        background-color: $white;
+    }
+
+    button:active {
+        scale: 0.90;
     }
 }
 </style>
