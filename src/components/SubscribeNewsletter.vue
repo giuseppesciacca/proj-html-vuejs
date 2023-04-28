@@ -70,5 +70,9 @@ export default {
         color: $white;
         font-weight: bold;
     }
+
+    button:hover {
+        background-color: #3f3a64;
+    }
 }
 </style>

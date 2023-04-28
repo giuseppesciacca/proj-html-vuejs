@@ -92,6 +92,12 @@ export default {
     background-color: #f5f7fa;
 }
 
+.col-6:hover {
+    background-color: $white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
 .item_price {
     color: $mountain_meadow;
 }

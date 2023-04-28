@@ -43,6 +43,11 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables.scss' as *;
 
+a,
+.btn {
+    color: $gun_powder;
+}
+
 #field_search,
 #Search {
     background-color: #f5f5f5;

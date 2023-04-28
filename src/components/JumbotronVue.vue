@@ -73,6 +73,10 @@ export default {
             text-decoration: none;
             border-bottom: 1px solid $shady_lady;
         }
+
+        a:hover {
+            color: #3f3a64;
+        }
     }
 
     .btn {
@@ -81,6 +85,10 @@ export default {
         font-weight: bold;
         background-color: $jungle_green;
         color: $white;
+    }
+
+    .btn:hover {
+        background-color: #3f3a64;
     }
 
     .image {

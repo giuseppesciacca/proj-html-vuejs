@@ -170,6 +170,10 @@ export default {
         height: 50px;
     }
 
+    .btn:hover {
+        background-color: #3f3a64;
+    }
+
     .img_line {
         position: absolute;
         top: 40%;
